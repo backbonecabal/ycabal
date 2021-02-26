@@ -6,7 +6,7 @@ JSONRPC utility
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/ycabal.svg)](https://npmjs.org/package/ycabal)
 [![Downloads/week](https://img.shields.io/npm/dw/ycabal.svg)](https://npmjs.org/package/ycabal)
-[![License](https://img.shields.io/npm/l/ycabal.svg)](https://github.com/trufflesuite/ycabal/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/ycabal.svg)](https://github.com/backbonecabal/ycabal/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -76,7 +76,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/eth/send-raw-transaction.ts](https://github.com/trufflesuite/ycabal/blob/v0.0.0/src/commands/eth/send-raw-transaction.ts)_
+_See code: [src/commands/eth/send-raw-transaction.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/eth/send-raw-transaction.ts)_
 
 ## `ycabal eth:send-transaction [FILE]`
 
@@ -92,7 +92,7 @@ OPTIONS
   -n, --name=name  (required) name to print
 ```
 
-_See code: [src/commands/eth/send-transaction.ts](https://github.com/trufflesuite/ycabal/blob/v0.0.0/src/commands/eth/send-transaction.ts)_
+_See code: [src/commands/eth/send-transaction.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/eth/send-transaction.ts)_
 
 ## `ycabal help [COMMAND]`
 
@@ -244,5 +244,5 @@ OPTIONS
   -p, --provider=provider  Provider address.  Ex: http://localhost:8545
 ```
 
-_See code: [src/commands/repl.ts](https://github.com/trufflesuite/ycabal/blob/v0.0.0/src/commands/repl.ts)_
+_See code: [src/commands/repl.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/repl.ts)_
 <!-- commandsstop -->

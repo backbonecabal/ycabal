@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "bugs": "https://github.com/trufflesuite/ycabal/issues",
+  "bugs": "https://github.com/backbonecabal/ycabal/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -48,7 +48,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/trufflesuite/ycabal",
+  "homepage": "https://github.com/backbonecabal/ycabal",
   "keywords": [
     "oclif"
   ],
@@ -68,7 +68,7 @@
       }
     }
   },
-  "repository": "trufflesuite/ycabal",
+  "repository": "backbonecabal/ycabal",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",

@@ -4,9 +4,9 @@
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Nicholas J. Paterno @nicholasjpaterno",
-  "repository": "trufflesuite/ycabal",
-  "homepage": "https://github.com/trufflesuite/ycabal",
-  "bugs": "https://github.com/trufflesuite/ycabal/issues",
+  "repository": "backbonecabal/ycabal",
+  "homepage": "https://github.com/backbonecabal/ycabal",
+  "bugs": "https://github.com/backbonecabal/ycabal/issues",
   "scripts": {
     "start": "node ./build/index.js",
     "build": "yarn run rmDist && yarn run compile",
