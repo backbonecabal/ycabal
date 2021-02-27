@@ -10,8 +10,8 @@ describe('eth:accounts', () => {
 
   test
   .stdout()
-  .command(['eth:accounts', '--name', 'jeff'])
-  .it('runs hello --name jeff', ctx => {
-    expect(ctx.stdout).to.contain('hello jeff')
+  .command(['eth:accounts', '--help', 'Ethereum JSONRPC Methods'])
+  .it('runs eth --help', ctx => {
+    expect(ctx.stdout).to.contain('Ethereum JSONRPC Methods')
   })
 })
