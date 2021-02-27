@@ -1,0 +1,9 @@
+# gitattributes configuration 
+.kodiak.toml export-ignore 
+README.md export-ignore 
+/test export-ignore  
+
+*.sh text eol=lf
+
+/.github export-ignore
+
