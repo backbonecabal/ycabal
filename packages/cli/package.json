@@ -15,7 +15,7 @@
     "@oclif/plugin-autocomplete": "^0.1.5",
     "@oclif/plugin-help": "^2",
     "@oclif/plugin-plugins": "^1.7.9",
-    "@ycabal/core": "0.0.0",
+    "@ycabal/core": "0.1.0",
     "@types/inquirer": "^6.5.0",
     "@types/mkdirp": "^1.0.0",
     "conf": "^6.2.4",
