@@ -19,7 +19,7 @@ $ npm install -g @ycabal/cli
 $ ycabal COMMAND
 running command...
 $ ycabal (-v|--version|version)
-@ycabal/cli/0.0.0 darwin-x64 node-v14.15.5
+@ycabal/cli/0.1.0 darwin-x64 node-v14.15.5
 $ ycabal --help [COMMAND]
 USAGE
   $ ycabal COMMAND
@@ -93,7 +93,7 @@ EXAMPLE
   }
 ```
 
-_See code: [src/commands/eth/accounts.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/eth/accounts.ts)_
+_See code: [src/commands/eth/accounts.ts](https://github.com/backbonecabal/ycabal/blob/v0.1.0/src/commands/eth/accounts.ts)_
 
 ## `ycabal eth:send-raw-transaction [FILE]`
 
@@ -109,7 +109,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/eth/send-raw-transaction.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/eth/send-raw-transaction.ts)_
+_See code: [src/commands/eth/send-raw-transaction.ts](https://github.com/backbonecabal/ycabal/blob/v0.1.0/src/commands/eth/send-raw-transaction.ts)_
 
 ## `ycabal eth:send-transaction [FILE]`
 
@@ -125,7 +125,7 @@ OPTIONS
   -n, --name=name  (required) name to print
 ```
 
-_See code: [src/commands/eth/send-transaction.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/eth/send-transaction.ts)_
+_See code: [src/commands/eth/send-transaction.ts](https://github.com/backbonecabal/ycabal/blob/v0.1.0/src/commands/eth/send-transaction.ts)_
 
 ## `ycabal help [COMMAND]`
 
@@ -277,5 +277,5 @@ OPTIONS
   -p, --provider=provider  Provider address.  Ex: http://localhost:8545
 ```
 
-_See code: [src/commands/repl.ts](https://github.com/backbonecabal/ycabal/blob/v0.0.0/src/commands/repl.ts)_
+_See code: [src/commands/repl.ts](https://github.com/backbonecabal/ycabal/blob/v0.1.0/src/commands/repl.ts)_
 <!-- commandsstop -->
