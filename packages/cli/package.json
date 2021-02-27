@@ -2,7 +2,6 @@
   "name": "@ycabal/cli",
   "description": "JSONRPC utility",
   "version": "0.0.0",
-  "author": "Nicholas J. Paterno @nicholasjpaterno",
   "bin": {
     "ycabal": "./bin/run"
   },

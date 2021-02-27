@@ -1,3 +1,11 @@
+/**
+* @file YCabal Command Line client
+* @contact Open Source <contact@manifoldfinance.com>
+* @description a command line client for interfacing with Backbone Cabal
+* @license MIT
+*/
+
+// TODO add MEV Support as an option
 import {ETH, SHH, WEB3, DB, NET} from './flavors/ethereum';
 import RPC, {Provider} from './rpc';
 

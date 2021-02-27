@@ -1,3 +1,7 @@
+/**
+* Accounts
+* @extends Config
+*/
 import {Command, flags} from '@oclif/command';
 import {YCabal} from '@ycabal/core';
 import {Config} from '../../utils/config';

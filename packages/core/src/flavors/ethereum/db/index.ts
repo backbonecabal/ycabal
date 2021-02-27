@@ -1,3 +1,5 @@
+// @file database provider
+// @summary for sync
 import {Provider} from '../../../rpc';
 import {hex} from '../../../utils';
 

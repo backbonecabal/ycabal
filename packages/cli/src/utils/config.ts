@@ -1,3 +1,9 @@
+/**
+* @file YCabal command line config
+* @summary {Hostname:port}
+* @class Config
+* @license MIT
+*/
 import Conf, {Options} from 'conf';
 
 interface Schema {

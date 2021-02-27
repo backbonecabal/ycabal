@@ -1,3 +1,4 @@
+// @exports repl 
 import {Command, flags} from '@oclif/command';
 import {start} from 'repl';
 import {prompt} from 'inquirer';

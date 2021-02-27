@@ -1,3 +1,14 @@
-# YCabal core
+# @ycabal/cli 
 
-JSON RPC helper
+### current 
+
+- eth 
+- web3
+- net
+- db
+- ssh
+
+#### roadmap 
+
+- debug
+- mev

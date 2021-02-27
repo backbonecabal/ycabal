@@ -1,3 +1,6 @@
+// @file network
+// @summary network endpoints that are nearly useless
+
 import {Provider} from '../../../rpc';
 
 export default class NET {

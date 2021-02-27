@@ -1,3 +1,7 @@
+// @file ethereum provider
+// TODO add `chainId` option 
+// TODO add `ethSendRawBundle` 
+
 import {hexOrQuantifier, hex} from '../../../utils';
 import {RPCTAG, Call, Log, Filter, Transaction} from '../../../rpc/interfaces/json-rpc';
 import {Provider} from '../../../rpc';

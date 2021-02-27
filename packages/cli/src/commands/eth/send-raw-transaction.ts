@@ -1,3 +1,8 @@
+/**
+ * SendRawTransaction 
+* @name sendRawTransaction
+* @extends Command
+*/
 import {Command, flags} from '@oclif/command';
 // import {YCabal} from '@ycabal/core';
 
@@ -15,12 +20,5 @@ export default class SendRawTransaction extends Command {
   static args = [{name: 'file'}]
 
   async run() {
-    // const {args, flags} = this.parse(SendRawTransaction);
-
-    // const name = flags.name || 'world';
-    // this.log(`hello ${name} from /home/cashlion/Play/ycabal/src/commands/eth/sendRawTransaction.ts`);
-    // if (args.file && flags.force) {
-    //   this.log(`you input --force and --file: ${args.file}`);
-    // }
   }
 }

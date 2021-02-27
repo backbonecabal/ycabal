@@ -1,3 +1,4 @@
+// @file hex utils
 const quantifiers = new Set(['latest', 'earliest', 'pending']);
 
 export function hex(value: string  | number) {
